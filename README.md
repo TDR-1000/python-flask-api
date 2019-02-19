@@ -22,4 +22,4 @@ To Run the Docker container
 ```bash
 $ docker run -d -p 5555:5555 apiserver
 ```
-The application will be accessible at http:127.0.0.1:5555
+The application will be accessible at http:127.0.0.1:5555/api/v1
