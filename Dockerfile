@@ -7,10 +7,10 @@ COPY exceptions/* /app/exceptions/
 COPY model/*  /app/model/
 COPY routes/* /app/routes/
 COPY settings/* /app/settings/
-COPY scripts/* /app/scripts/
+#COPY scripts/* /app/scripts/
 COPY venv/* /app/venv/
-COPY config/* /app/config/
-COPY config/data/* /app/config/data/
+#COPY config/* /app/config/
+#COPY config/data/* /app/config/data/
 COPY index.py /app/index.py
 COPY requirements.txt /app/requirements.txt
 ENV MONGO_URI mongodb://127.0.0.1:27017/api_db
